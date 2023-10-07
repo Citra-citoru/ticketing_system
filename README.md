@@ -26,8 +26,8 @@ classDiagram
     +payment_no String
     +status String
   }
-  Event <|-- Booking
-  User <|-- Booking
+  event <|-- booking
+  user <|-- booking
 ```
 
 ## Installation
