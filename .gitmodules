@@ -1,3 +1,6 @@
 [submodule "ticketing_api"]
 	path = ticketing_api
 	url = https://github.com/Citra-citoru/ticketing_api.git
+[submodule "ticketing_web"]
+	path = ticketing_web
+	url = https://github.com/Citra-citoru/ticketing_web.git
