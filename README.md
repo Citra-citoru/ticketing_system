@@ -1,7 +1,7 @@
 
 ## Description
 Ticketing System using NEST JS. 
-1. Class Diagram
+- Class Diagram
 
 ```mermaid
 classDiagram
@@ -41,24 +41,17 @@ $ npm install
 ```bash
 # development
 $ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
-
+## Build the app
+```bash
+$ npm install
+$ npm run build # both ReactJS and NestJS
+$ npm run build:backend # only NestJS backend
+$ npm run build:frontend # only ReactJS frontend
+```
 ## Test
 
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+$ npm run test # run project tests under `cypress/integration`
 ```
 
