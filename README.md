@@ -64,3 +64,5 @@ $ npm run build:frontend # only ReactJS frontend
 $ npm run test # run project tests under `cypress/integration`
 ```
 
+## Swagger
+
