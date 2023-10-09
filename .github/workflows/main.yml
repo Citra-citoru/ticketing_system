@@ -1,5 +1,4 @@
-name: NestJS-UnitTest
-
+name: Cypress Test
 on:
   push:
     branches:
