@@ -1,6 +1,6 @@
 
 ## Description
-Ticketing System using NEST JS. 
+Ticketing System using NEST JS and ReactJS.
 - Class Diagram
 
 ```mermaid
