@@ -15,7 +15,7 @@ classDiagram
     +email String
     +password String
     +role String
-    +organization String
+    +organization Organization
   }
   class event{
     +name String
@@ -23,6 +23,7 @@ classDiagram
     +start_date DateTime
     +end_date DateTime
     +ticket_qty Int
+    +organization Organization
   }
   class booking{
     +user User
@@ -35,6 +36,7 @@ classDiagram
   event <|-- booking
   user <|-- booking
   organization <|-- user
+  organization <|-- event
 ```
 
 ## Installation
