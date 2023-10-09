@@ -5,11 +5,17 @@ Ticketing System using NEST JS.
 
 ```mermaid
 classDiagram
+  class organization{
+    +name String
+    +description String
+    +address String
+  }
   class user{
     +name String
     +email String
     +password String
     +role String
+    +organization String
   }
   class event{
     +name String
@@ -28,6 +34,7 @@ classDiagram
   }
   event <|-- booking
   user <|-- booking
+  organization <|-- user
 ```
 
 ## Installation
