@@ -15,15 +15,14 @@ classDiagram
     +email String
     +password String
     +role String
-    +organization Organization
   }
   class event{
     +name String
+    +description String
     +location String
     +start_date DateTime
-    +end_date DateTime
-    +ticket_qty Int
-    +organization Organization
+    +ticket_qty Integer
+    +attendees Integer
   }
   class booking{
     +user User
